@@ -5,7 +5,7 @@
 
     <body>
         <div>
-            Welcome to in28minutes
+            Welcome ${name}
         </div>
         <div>
             Your Todos are ${todos}
