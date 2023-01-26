@@ -12,7 +12,8 @@ public class Todo {
         this.description = description;
         this.targetDate = targetDate;
         this.done = done;
-    }    private int id;
+    }
+    private int id;
     private String username;
     @Size(min=10,message="Enter at least 10 characters")
     private String description;
