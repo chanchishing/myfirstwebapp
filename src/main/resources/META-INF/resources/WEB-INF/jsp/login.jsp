@@ -5,17 +5,19 @@
     </head>
 
     <body>
-        Welcome to the login page!
+        <div class="container">
+            <h1>Login</h1>
 
-        <pre>${errorMessage}</pre>
+            <pre>${errorMessage}</pre>
 
-        <form method="post">
-            Name:<input type="text" name="name">
+            <form method="post">
+                Name:<input type="text" name="name">
 
-            Password:<input type="password" name="password">
-            <input type="submit">
+                Password:<input type="password" name="password">
+                <input type="submit">
 
-        </form>
+            </form>
+        </div>
         <script src="webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     </body>
 
