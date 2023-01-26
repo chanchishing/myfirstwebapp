@@ -3,6 +3,7 @@
 
 <html>
     <head>
+        <link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
         <title>List Todos Page</title>
     </head>
 
@@ -32,6 +33,7 @@
                 </c:forEach>
             </tbody>
         </table>
+        <script src="webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>

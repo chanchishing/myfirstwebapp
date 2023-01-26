@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
         <title>Welcome Page</title>
     </head>
 
@@ -7,6 +8,7 @@
         <div>Welcome ${name}</div>
         <hr>
         <div><a href="list-todos">Manage</a> your todos</div>
+        <script src="webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>
